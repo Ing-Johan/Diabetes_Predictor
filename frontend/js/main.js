@@ -3,7 +3,7 @@
  * Pima Indians Diabetes — Predictor con Regresión Logística y RNA
  */
 
-const API_URL = 'http://localhost:5000';
+const API_URL = window.location.origin;
 
 // Nombres legibles de cada feature del dataset Pima Indians Diabetes
 const FEAT_NAMES = {
